@@ -1,0 +1,202 @@
+#root {
+  height: 100vh;
+}
+body {
+  background-color: #f2f4f3;
+}
+
+.navbar {
+  background-color: #f8f9fb !important;
+}
+
+.navlist {
+  color: #333;
+  color: #6c757d;
+}
+
+.navlist:active {
+  color: black;
+}
+
+.signup {
+  width: 60%;
+  height: fit-content;
+}
+.signin {
+  width: 60%;
+  height: fit-content;
+}
+.input-group-text {
+  background-color: #ffffff !important;
+  border: none;
+  border-bottom: 1.25px solid #e5e5e5;
+  border-radius: 0%;
+}
+
+.custom-fc {
+  background-color: #ffffff !important;
+  border: none;
+  border-bottom: 1.25px solid #e5e5e5;
+  border-radius: 0%;
+}
+
+.img {
+  width: 150%;
+  height: 55%;
+  margin-bottom: 0%;
+}
+
+.rtext {
+  margin-top: 2%;
+  font-size: small;
+}
+
+.form-control::placeholder {
+  color: #767b91;
+  opacity: 1;
+}
+
+.btn {
+  border-radius: 0%;
+}
+li,
+li a {
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+  height: 100%;
+  text-decoration: none;
+  color: #333;
+}
+
+form .form-control:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.contact-card-heading {
+  font-size: 110%;
+}
+
+.contact-card-info {
+  font-size: 95%;
+}
+
+.divbg {
+  position: relative;
+  height: 100vh;
+}
+
+.divfront {
+  position: absolute;
+  top: 60%; /* Vertically center the element */
+  left: 50%; /* Horizontally center the element */
+  transform: translate(-50%, -50%); /* Move the element to center */
+}
+
+.leftdiv {
+  background-color: #a2d2ff;
+}
+
+.rightdiv {
+  background-color: #ffffff;
+}
+
+/* .tab-header {
+  border: none !important;
+}
+
+.tab-links {
+  border: none !important;
+}
+
+.user-profile {
+  border-bottom: 1px solid #333;
+}
+
+.tab-links:visited {
+  color: red;
+} */
+
+.upperdiv {
+  font-size: 1200%;
+  opacity: 0.1;
+  position: relative;
+}
+
+.lowerdiv {
+  position: absolute;
+  left: 8.5%;
+  top: 50%;
+}
+
+/* Adjust label style for text overflow */
+.card-body label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Adjust section alignment */
+.user-intro {
+  align-items: center;
+}
+
+/* Your custom CSS */
+
+.alert {
+  margin-top: 10px;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 10px 20px;
+  font-size: 16px;
+  position: relative;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+.alert-info {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border-color: #bee5eb;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border-color: #ffeeba;
+}
+
+/* Close button */
+.alert .close {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: inherit;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.alert .close:hover {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .img-responsive {
+    max-width: 100%;
+    height: auto;
+  }
+}
